@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AuroraBot - 智能AI助手</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>AuroraBot</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">首页</a></li>
+                <li><a href="#features">功能</a></li>
+                <li><a href="#download">下载</a></li>
+                <li><a href="#about">关于</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h2>智能AI助手，为你解决一切问题</h2>
+                <p>AuroraBot 是一款功能强大的AI聊天应用，支持多种模式，满足你的各种需求</p>
+                <div class="cta-buttons">
+                    <a href="#download" class="btn primary">立即下载</a>
+                    <a href="#features" class="btn secondary">了解更多</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="features" class="features">
+        <div class="container">
+            <h2>核心功能</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+                        </svg>
+                    </div>
+                    <h3>多模式支持</h3>
+                    <p>支持 A1、U1、Agent 多种模式，满足不同场景的需求</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M12 2a10 10 0 1 0 10 10 4 4 0 0 1-5-5 4 4 0 0 1-5-5 10 10 0 0 0 0-10z"></path>
+                            <path d="M12 8h.01"></path>
+                            <path d="M12 12h.01"></path>
+                            <path d="M12 16h.01"></path>
+                        </svg>
+                    </div>
+                    <h3>智能对话</h3>
+                    <p>基于先进的AI模型，提供智能、自然的对话体验</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                        </svg>
+                    </div>
+                    <h3>情感模式</h3>
+                    <p>支持情感互动，根据用户语气调整回复风格</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                            <polyline points="14 2 14 8 20 8"></polyline>
+                            <line x1="16" y1="13" x2="8" y2="13"></line>
+                            <line x1="16" y1="17" x2="8" y2="17"></line>
+                            <polyline points="10 9 9 9 8 9"></polyline>
+                        </svg>
+                    </div>
+                    <h3>文件支持</h3>
+                    <p>支持上传和处理各种文件，方便分享和讨论</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="download" class="download">
+        <div class="container">
+            <h2>下载 AuroraBot</h2>
+            <p>获取最新版本的 AuroraBot</p>
+            <div class="download-links">
+                <a href="#" class="download-btn" onclick="showDownloadModal()">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                        <polyline points="7 10 12 15 17 10"></polyline>
+                        <line x1="12" y1="15" x2="12" y2="3"></line>
+                    </svg>
+                    Windows 版本
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>关于 AuroraBot</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>AuroraBot 是由 Ar 开发的智能AI助手，旨在为用户提供高质量的AI对话体验。</p>
+                    <p>我们致力于打造一个功能强大、界面美观、用户友好的AI聊天应用，支持多种模式和场景，满足用户的各种需求。</p>
+                    <p>无论是工作学习、娱乐聊天还是创意写作，AuroraBot 都能为你提供智能、高效的帮助。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <h3>AuroraBot</h3>
+                    <p>智能AI助手，为你解决一切问题</p>
+                </div>
+                <div class="footer-links">
+                    <h4>快速链接</h4>
+                    <ul>
+                        <li><a href="#home">首页</a></li>
+                        <li><a href="#features">功能</a></li>
+                        <li><a href="#download">下载</a></li>
+                        <li><a href="#about">关于</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>联系我们</h4>
+                    <p>邮箱: contact@aurorabot.com</p>
+                    <p>GitHub: github.com/aurorabot</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 AuroraBot. 保留所有权利。</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- 下载弹窗 -->
+    <div id="download-modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>下载 AuroraBot</h3>
+                <button class="close-btn" onclick="closeDownloadModal()">&times;</button>
+            </div>
+            <div class="modal-body">
+                <p>请使用以下提取码获取下载链接：</p>
+                <div class="extract-code">1234</div>
+                <p class="modal-note">复制提取码后点击下方按钮跳转到下载页面</p>
+            </div>
+            <div class="modal-footer">
+                <button class="btn secondary" onclick="closeDownloadModal()">取消</button>
+                <button class="btn primary" onclick="redirectToDownload()">下一步</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // 显示下载弹窗
+        function showDownloadModal() {
+            document.getElementById('download-modal').style.display = 'flex';
+        }
+
+        // 关闭下载弹窗
+        function closeDownloadModal() {
+            document.getElementById('download-modal').style.display = 'none';
+        }
+
+        // 跳转到下载链接
+        function redirectToDownload() {
+            window.open('https://wwbrz.lanzoul.com/b00g41jvpi', '_blank');
+            closeDownloadModal();
+        }
+
+        // 点击弹窗外部关闭
+        window.onclick = function(event) {
+            const modal = document.getElementById('download-modal');
+            if (event.target == modal) {
+                closeDownloadModal();
+            }
+        }
+
+        // 平滑滚动
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
